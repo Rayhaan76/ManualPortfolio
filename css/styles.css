@@ -1,0 +1,113 @@
+:target {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+body {
+    background-color: #52ab98;
+    margin: 0px;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+}
+
+.navbar {
+    /* background-color: #254e58; */
+    background-color: #326c7b;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0%;
+    color: rgb(230, 228, 228);
+    min-height: 4em;
+    max-height: 8em;
+    /* padding-top: 10px; */
+    z-index: 2;
+}
+
+.navbar h1 {
+    line-height: 2em;
+    padding-left: 2em;
+}
+
+.links {
+    float: right;
+    line-height: 2em;
+    padding-right: 2em;
+}
+
+.navbar a {
+    color: rgb(230, 228, 228);
+    padding-left: 2em;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover {
+    color: rgb(169, 169, 169);
+    transition: 100ms;
+}
+
+.introduction {
+    background-color: #52ab98;
+    /* margin: 0%; */
+    display: inline-block;
+    /* min-height: 20em; */
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+    margin: 3%;
+    margin-right: 2em;
+    transform: scale(1);
+    transition: 200ms ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    transition: 200ms ease-in-out;
+}
+
+.rightSide {
+    text-align: left;
+}
+
+.bottomSkills {
+    clear: both;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.skills img {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.projects {
+    /* background-color: #88bdbc; */
+    background-color: rgb(189, 189, 189);
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.pImage {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contact {
+    background-color: #52ab98;
+    display: inline-block;
+    width: 100%;
+    bottom: 0%;
+    text-align: center;
+}
