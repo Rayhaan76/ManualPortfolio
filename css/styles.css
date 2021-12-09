@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #52ab98;
+    background-color: #a8d0e7;
     margin: 0px;
     font-family: 'Roboto';
     font-size: 1.5em;
@@ -61,6 +61,7 @@ body {
 .introduction {
     /* background-color: #52ab98; */
     background-color: #a8d0e7;
+    width: 100%;
     display: inline-block;
     text-align: center;
 
@@ -112,15 +113,27 @@ body {
 .projects {
     /* background-color: #88bdbc; */
     background-color: #f7f7f7;
-    margin: 0;
     display: inline-block;
     width: 100%;
-    text-align: center;
+    /* display: inline-block;
+    width: 100%;
+    display: inline-block;
+    width: 100%; */
+    text-align: center; 
 }
 
-.pImage {
+/* .pImage {
     padding-left: 5%;
     padding-right: 5%;
+} */
+
+.projects figure {
+    display: inline-block;
+}
+
+.projects img {
+    border-radius: 2%;
+    border: 1px solid gray;
 }
 
 .contact {
