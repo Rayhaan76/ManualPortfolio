@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 :target {
     display: block;
     position: relative;
@@ -6,15 +10,17 @@
 }
 
 body {
-    background-color: #52ab98;
+    background-color: #a8d0e7;
     margin: 0px;
     font-family: 'Roboto';
     font-size: 1.5em;
+
 }
 
 .navbar {
     /* background-color: #254e58; */
-    background-color: #326c7b;
+    /* background-color: #326c7b; */
+    background-color: #24305e;
     display: inline-block;
     position: sticky;
     top: 0;
@@ -53,16 +59,19 @@ body {
 }
 
 .introduction {
-    background-color: #52ab98;
-    /* margin: 0%; */
+    /* background-color: #52ab98; */
+    background-color: #a8d0e7;
+    width: 100%;
     display: inline-block;
-    /* min-height: 20em; */
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    text-align: center;
+
+}
+
+.row1 {
+    
     margin-left: 15%;
     margin-right: 15%;
-    text-align: center;
-    /* font-size: 1.4em; */
+    margin-top: 3%;
 }
 
 .logo {
@@ -75,11 +84,13 @@ body {
 
 .logo:hover {
     transform: scale(1.05);
-    transition: 200ms ease-in-out;
+    transition: 150ms ease-in-out;
 }
 
 .rightSide {
     text-align: left;
+    /* max-width: 850px; */
+    margin-right: 10%;
 }
 
 .bottomSkills {
@@ -91,26 +102,55 @@ body {
 .skills img {
     padding-left: 1%;
     padding-right: 1%;
+    padding-bottom: 1%;
+    transform: scale(1);
+    transition: 200ms ease-in-out;
+}
+
+.skills img:hover {
+    transform: scale(1.1);
+    transition: 150ms ease-in-out;
 }
 
 .projects {
     /* background-color: #88bdbc; */
-    background-color: rgb(189, 189, 189);
-    margin: 0;
+    background-color: #f7f7f7;
     display: inline-block;
     width: 100%;
-    text-align: center;
+    /* display: inline-block;
+    width: 100%;
+    display: inline-block;
+    width: 100%; */
+    text-align: center; 
 }
 
-.pImage {
-    padding-left: 5%;
-    padding-right: 5%;
+.projects figure {
+    display: inline-block;
+    transform: scale(1);
+    transition: 200ms ease-in-out;
+}
+
+.projects img {
+    border-radius: 2%;
+    border: 1px solid gray;
+}
+
+.projects figure:hover {
+    transform: scale(1.02);
+    transition: 150ms ease-in-out; 
 }
 
 .contact {
-    background-color: #52ab98;
+    /* background-color: #52ab98; */
+    background-color: #a8d0e7;
     display: inline-block;
     width: 100%;
     bottom: 0%;
     text-align: center;
+}
+
+.email {
+    font-weight: 750;
+    color: black;
+    text-decoration: none;
 }
