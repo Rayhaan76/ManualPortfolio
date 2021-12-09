@@ -89,6 +89,8 @@ body {
 
 .rightSide {
     text-align: left;
+    /* max-width: 850px; */
+    margin-right: 10%;
 }
 
 .bottomSkills {
@@ -122,18 +124,20 @@ body {
     text-align: center; 
 }
 
-/* .pImage {
-    padding-left: 5%;
-    padding-right: 5%;
-} */
-
 .projects figure {
     display: inline-block;
+    transform: scale(1);
+    transition: 200ms ease-in-out;
 }
 
 .projects img {
     border-radius: 2%;
     border: 1px solid gray;
+}
+
+.projects figure:hover {
+    transform: scale(1.02);
+    transition: 150ms ease-in-out; 
 }
 
 .contact {
@@ -143,4 +147,10 @@ body {
     width: 100%;
     bottom: 0%;
     text-align: center;
+}
+
+.email {
+    font-weight: 750;
+    color: black;
+    text-decoration: none;
 }
